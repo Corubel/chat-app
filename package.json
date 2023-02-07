@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server/index.js",
+    "start": "node server/index.js",
     "dev": "nodemon server/index.js",
-    "buil": "npm run --prefix client buil"
+    "buil": "npm --prefix client install  && npm run --prefix client buil"
   },
   "author": "corubel",
   "license": "ISC",
