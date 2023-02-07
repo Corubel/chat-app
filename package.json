@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "mode src/App.js",
-    "dev": "nodemon server/index.js"
+    "dev": "nodemon server/index.js",
+    "buil": "npm run --prefix client buil"
   },
   "author": "corubel",
   "license": "ISC",
