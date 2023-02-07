@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "mode server/index.js",
+    "start": "mode src/App.js",
     "dev": "nodemon server/index.js"
   },
   "author": "corubel",
