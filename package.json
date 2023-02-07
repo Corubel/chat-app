@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "mode src/App.js",
+    "start": "nodemon server/index.js",
     "dev": "nodemon server/index.js",
     "buil": "npm run --prefix client buil"
   },
